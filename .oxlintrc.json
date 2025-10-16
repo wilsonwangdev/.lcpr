@@ -1,0 +1,25 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "categories": {
+    "correctness": "error",
+    "perf": "error",
+    "restriction": "error"
+  },
+  "rules": {
+    "no-plusplus": "allow",
+    "no-param-reassign": "allow"
+  },
+  "ignorePatterns": [
+    "node_modules",
+    "dist",
+    "assets",
+    "coverage",
+    "docs",
+    "examples",
+    "scripts",
+    "test",
+    "tests",
+    "types",
+    "www"
+  ]
+}
