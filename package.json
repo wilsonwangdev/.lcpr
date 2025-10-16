@@ -9,11 +9,11 @@
     "lint": "oxlint",
     "lint:fix": "oxlint --fix",
     "predocs:dev": "typedoc --watch",
-    "docs:dev": "vitepress dev doc",
+    "docs:dev": "vitepress dev docs",
     "predocs:build": "typedoc",
-    "docs:build": "vitepress build doc",
+    "docs:build": "vitepress build docs",
     "prepare": "husky",
-    "docs:preview": "vitepress preview doc"
+    "docs:preview": "vitepress preview docs"
   },
   "packageManager": "pnpm@10.18.3+sha512.bbd16e6d7286fd7e01f6b3c0b3c932cda2965c06a908328f74663f10a9aea51f1129eea615134bf992831b009eabe167ecb7008b597f40ff9bc75946aadfb08d",
   "devDependencies": {
